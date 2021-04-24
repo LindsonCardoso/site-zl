@@ -30,7 +30,7 @@ const Footer = () => {
           <Col lg={4}>
               <div className="mb-4">
                 <p className="text-muted mt-4 mb-2">email@email.com</p>
-                <h6 className="text-muted font-weight-normal">+99 1234-5678-9</h6>
+                <h6 className="text-muted font-weight-normal">+55 1234-5678-9</h6>
               </div>
           </Col>
           <Col lg={8}>
@@ -67,7 +67,7 @@ const Footer = () => {
         <Row className="mt-5">
           <Col md={12}>
             <div className="text-center text-muted">
-              <p className="mb-0 f-15">2020 © Name. Design by Name</p>
+              <p className="mb-0 f-15 text-white">2021 © Corporation.<span className="font-weight-medium" className={styles.spa}> ZL Tecnologia</span></p>
             </div>
           </Col>
         </Row>

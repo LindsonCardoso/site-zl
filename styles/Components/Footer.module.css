@@ -7,7 +7,7 @@
   position: relative;
   font-family: "Roboto", sans-serif;
   background-image: url('../../src/baixados.png'), 
-  linear-gradient( 135deg, #007aff 10%,  #FFFFFF 100%);
+  linear-gradient( 135deg, #FFFFFF 10%,  #007aff 100%);
   background-size: cover;
   background-position: center top;
 
@@ -15,4 +15,13 @@
 
 .row {
   margin-top:2rem;
+}
+
+
+.spa{
+  color: var(--money);
+}
+
+.spa:hover{
+  color: var(--light);
 }
