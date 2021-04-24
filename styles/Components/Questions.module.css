@@ -1,0 +1,23 @@
+
+.topp{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.row {
+  scroll-behavior: smooth;
+  animation-duration: 1s;
+}
+
+.subtitles_qf {
+	text-align: center;
+	padding: 1rem;
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  line-height: 1rem;
+}
+
+.subtitles_qf:hover {
+    color: var(--money);
+}

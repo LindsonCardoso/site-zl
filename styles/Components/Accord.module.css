@@ -1,0 +1,23 @@
+.Container {
+
+  border-top-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+.Card__one {
+	border-top-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+.Accordion__tog {
+  background: linear-gradient(90deg, #007aff 10%, #007aff 110%);
+
+  border-radius: 1rem;
+  color: var(--white);
+      cursor: pointer;
+      font-size: 1.2rem;
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+      line-height: 1.28571429em;
+}

@@ -1,0 +1,18 @@
+
+
+.topp{
+
+  padding-top: 100px;
+  padding-bottom: 10px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  background-image: url('../../src/baixados.png'), 
+  linear-gradient( 135deg, #007aff 10%,  #FFFFFF 100%);
+  background-size: cover;
+  background-position: center top;
+
+}
+
+.row {
+  margin-top:2rem;
+}

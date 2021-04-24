@@ -1,0 +1,137 @@
+
+.About{
+  padding-top: 9rem;
+  padding-bottom: 3rem;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.row {
+  margin-top:2rem;
+  scroll-behavior: smooth;
+  animation-duration: 1s;
+}
+
+.cards_list {
+z-index: 0;
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 18rem;
+  height: 13rem;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+  cursor: pointer;
+  transition: 0.4s;
+
+  padding: 2rem;
+  border-radius: 20px!important;
+  color: var(--blackGG);
+  text-align: center!important;
+}
+.card_image{
+  bottom: -1rem;
+}
+.card_2 {
+  margin: 30px auto;
+  width: 18rem;
+  height: 13rem;
+  
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+      cursor: pointer;
+    transition: 0.4s;
+   
+    padding: 2rem;
+    border-radius: 20px!important;
+    color: var(--blackGG);
+    text-align: center!important;
+}
+.card_3 {
+  margin: 30px auto;
+  width: 18rem;
+  height: 13rem;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+      cursor: pointer;
+    transition: 0.4s;
+
+    padding: 2rem;
+    border-radius: 20px!important;
+    color: var(--blackGG);
+    text-align: center!important;
+}
+.card_4 {
+  margin: 30px auto;
+  width: 18rem;
+  height: 13rem;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+      cursor: pointer;
+    transition: 0.4s;
+
+    padding: 2rem;
+    border-radius: 20px!important;
+    color: var(--blackGG);
+    text-align: center!important;
+}
+
+.card:hover {
+transform:  scale(1.1, 1.1);
+box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+}
+
+.card_2:hover {
+transform:  scale(1.1, 1.1);
+box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+}
+
+.card_3:hover {
+transform:  scale(1.1, 1.1);
+box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+}
+
+.card_4:hover {
+  transform:  scale(1.1, 1.1);
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 20px 0px;
+  }
+
+.title-white {
+color: var(--dark);
+}
+
+.title-black {
+color: black;
+}
+
+
+.card_title1 h5{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  }
+  .card_title1 P{
+
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;  
+    
+    }
+        
+  .title-black {
+    font-size: 10rem;
+  }
+
+
+
+  
+@media all and (max-width: 500px) {
+  .card_list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}

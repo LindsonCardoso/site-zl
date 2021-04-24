@@ -1,0 +1,89 @@
+.header {
+  background: white !important;
+  box-shadow: rgb(43 83 135 / 8%) 0px 3px 8px 0px!important;
+  padding: 0px 15px;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0px 5px 40px 0px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22)!important;
+}
+.header .nav-item {
+  padding-left: 1rem;
+  font-size: 1.0rem;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  margin: 0 auto;
+}
+
+.header .nav-item .nav-link{
+  color: var(--blackGG);
+}
+
+.header .navbar {
+  padding: 10px 0px;
+  line-height: 1.2rem;
+}
+
+
+
+.header.sticky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 91;
+}
+
+.header.sticky .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 6px 13px 0px rgb(0 0 0 / 6%);
+  opacity: 0;
+  -webkit-animation: fadeInDown .95s ease-in-out 0s 1 normal none running;
+  animation: fadeInDown .95s ease-in-out 0s 1 normal none running;
+  -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+
+/*=============== button ==========================*/
+.btn_product{
+  border: 1px solid #2ae8ac;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  display: inline;
+  vertical-align: middle;
+  background: linear-gradient(90deg, #2ae8ac 0%, #2ae8ac 100%);
+  transition: all 0.3s ease-in-out 0s; 
+  letter-spacing: 0.1rem;
+  outline: none;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25), -1px -1px 6px 1px rgba(0,0,0,0.22)!important;
+
+}
+
+
+.btn_product::before{
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+
+}
+
+.btn_product:hover, .btn_product:focus {
+  color :var(--light);
+  transform: translateX(-0.1rem);
+  
+}
