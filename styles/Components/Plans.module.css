@@ -4,7 +4,7 @@
   padding-top: 4rem;
   padding-bottom: 3rem;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lexend", sans-serif;
 
 }
 
@@ -54,18 +54,18 @@
 	border-top-left-radius: 1rem;
 	color: #fff;
 	padding: 30px;
-	font-family: "Roboto", sans-serif;
+	font-family: "Lexend", sans-serif;
 	text-align: center;
 	font-weight: 100;
 	font-size: 1rem;
-  background: linear-gradient(90deg, #007aff 10%, #FFFFFF 110%);
+  background: linear-gradient(90deg, #29e8ac 10%, #29e8ac 110%);
 	box-shadow: 0 0 10px rgba(209, 209, 209, 0.8);
 }
 
 .date h4 {
 	color: var(--snowFosco);
 	font-weight: 700;
-	font-family: "Roboto", sans-serif;
+	font-family: "Lexend", sans-serif;
 	text-align: center;
 	letter-spacing: 3px;
 	text-shadow: 0 0 0px rgb(255, 255, 255);
@@ -142,7 +142,7 @@
 		margin-top: 5rem;
 		border-radius: 0.3rem;
       border: none;
-      font-family: "Roboto",sans-serif;
+      font-family: "Lexend",sans-serif;
       font-size: 0.9rem;
       font-weight: 600;
       overflow: hidden;

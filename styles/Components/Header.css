@@ -9,7 +9,7 @@
   padding-left: 1rem;
   font-size: 1.0rem;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lexend", sans-serif;
   margin: 0 auto;
 }
 
@@ -50,23 +50,25 @@
           transform: translateY(0%);
 }
 
-
+.header .nav-item:hover {
+  color: var(--money);
+}
 /*=============== button ==========================*/
 .btn_product{
   border: 1px solid #2ae8ac;
   border-radius: 0.3rem;
   padding: 0.4rem;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lexend", sans-serif;
   overflow: hidden;
   display: inline;
   vertical-align: middle;
   background: linear-gradient(90deg, #2ae8ac 0%, #2ae8ac 100%);
   transition: all 0.3s ease-in-out 0s; 
-  letter-spacing: 0.1rem;
+ 
   outline: none;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25), -1px -1px 6px 1px rgba(0,0,0,0.22)!important;
-
+  color: var(--blackGG);
 }
 
 

@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Components/Header.css'
 import 'semantic-ui-css/semantic.min.css'

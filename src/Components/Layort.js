@@ -13,8 +13,8 @@ const Layout = (props) => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,500&display=swap" rel="stylesheet"/>
+       <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lexend:wght@500;600&display=swap" rel="stylesheet"/>
       </Head>
       <div>
         {props.children}
