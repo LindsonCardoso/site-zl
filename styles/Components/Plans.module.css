@@ -8,6 +8,9 @@
 
 }
 
+.subtitles_3{
+	color: var(--money);
+}
 .row {
   margin-top:2rem;
 }

@@ -12,7 +12,7 @@
 }
 
 .Accordion__tog {
-  background: linear-gradient(90deg, #007aff 10%, #007aff 110%);
+  background: linear-gradient(90deg, #29e8ac 10%, #29e8ac 110%);
 
   border-radius: 1rem;
   color: var(--white);

@@ -38,7 +38,7 @@ const Plans = (props) => {
         <Row className="justify-content-center">
           <Col md={12}>
             <div className="title text-center mb-5">
-              <h1 className="font-weight-normal text-black">Planos  & preços <br /><span className="text-primary"> Conferi aqui</span></h1>
+              <h1 className="font-weight-normal text-black">Planos  & preços <br /><span className={styles.subtitles_3}> Conferi aqui</span></h1>
             </div>
             <div className={styles.conatiner}>
               <div className={styles.wrap}>

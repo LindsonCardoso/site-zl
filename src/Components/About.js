@@ -16,7 +16,7 @@ const About = () => {
         <Row className="justify-content-center">
           <Col md={12}>
             <div className="title text-center mb-5">
-              <h1 className="font-weight-normal">O ZLTech te ajuda de forma simples e agil <br/> <span className="text-primary">confere aqui</span></h1>
+              <h1 className="font-weight-normal">O ZLTech te ajuda de forma simples e agil <br/> <span className={styles.subtitles_2}>confere aqui</span></h1>
             </div>
             <div className={styles.cards_list}>
 
