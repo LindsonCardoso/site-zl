@@ -8,6 +8,7 @@ import Plans from '../src/Components/Plans'
 import FadeIn from 'react-fade-in';
 import Footer from '../src/Components/Footer'
 import Question from '../src/Components/Questions'
+import Contact from '../src/Components/Contact'
 
 
 const index = () => {
@@ -20,6 +21,7 @@ const index = () => {
             <About />
             <Plans />
             <Question/>
+            <Contact/>
             <Footer/>
         </FadeIn>
       

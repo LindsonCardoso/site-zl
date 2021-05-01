@@ -9,7 +9,7 @@ const Home = () => {
   return (
 
 
-    <section className="section position-relative" id="about">
+    <section className="section position-relative">
       <FadeIn>
       <Container>
         <Row className="align-items-center">
@@ -24,7 +24,7 @@ const Home = () => {
                 <div className={styles.btnP}>
                   <div className="title-white">         
                     <p  className={styles.card_title} >
-                      Baixar gratis
+                      Acesse gratis
                     </p>
                   </div>
                 </div>

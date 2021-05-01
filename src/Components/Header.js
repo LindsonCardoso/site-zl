@@ -34,22 +34,22 @@ const Header = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
+              
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="#about">Funcionalidades</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#feature">Funcionalidades</NavLink>
+                <NavLink href="#Plans">Planos e preços</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#service">Planos e preços</NavLink>
+                <NavLink href="#Contact">Fale conosco</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="#about">Fale conosco</NavLink>
-              </NavItem>
-                <NavItem>
-                  <button type="button" className="btn_product">experimente gratis</button>
-                  </NavItem>
+                       
+                <button type="button" className="btn_product">experimente gratis</button>
+               
+             
             </Nav>
+   
           </Collapse>
         </Container>
       </Navbar>

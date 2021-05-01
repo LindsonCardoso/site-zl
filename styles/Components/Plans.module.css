@@ -37,9 +37,9 @@
 	background-color: #FFFBFC;
 	margin: 14px;
 	width: 18rem;
-	height: 30rem;
+	height: 35rem;
 	text-align: center;
-	border-top-left-radius: 1rem;
+	
 	border-bottom-right-radius: 1rem;
 	border-bottom-left-radius: 1rem;
 	-webkit-transition: 200ms ease-in-out;
@@ -54,7 +54,7 @@
 	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
 }
 .box h4 {
-	border-top-left-radius: 1rem;
+
 	color: #fff;
 	padding: 30px;
 	font-family: "Lexend", sans-serif;

@@ -48,12 +48,6 @@ const Plans = (props) => {
                   <div className={styles.date}>
                     <h4>ECONÔMICO</h4>
                   </div>
-
-   
-
-
-
-
                   <div className={styles.poster}>
                     <h6>R$ 49,90</h6>
                     <ul celled className={styles.listItems}>
@@ -71,7 +65,7 @@ const Plans = (props) => {
 
                 </div>
 
-
+s
                 <div className={styles.box}>
                   <div className={styles.date}>
                     <h4>PLANO PREMIUM</h4>
@@ -116,7 +110,9 @@ const Plans = (props) => {
                     </ul>
                     <button type="button" className={styles.p1}>teste grátis</button>
                   </div>
-                </div>      
+                </div>     
+
+
               </div>
             </div>
           </Col>

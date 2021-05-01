@@ -1,0 +1,147 @@
+.section_contact {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  position: relative;
+  font-family: "lexend", sans-serif;
+  background-size: cover;
+  background-position: center top;
+
+ 
+}
+
+.Container_2 {
+  animation-duration: 1s;
+}
+
+.title_1 {
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  font-family: "Lexend",sans-serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  }
+  .title_2 {
+    color: var(--gray-500);
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    font-family: "Lexend",sans-serif;
+    margin-bottom: 2rem;
+    }
+  
+
+  .row {
+    margin-top:3rem;
+  }
+  
+
+  .cards_list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+
+  
+}
+
+.card {
+  margin: 30px auto;
+  width: 40rem;
+  height: 50rem;
+
+  box-shadow: rgb(50 50 93 / 50%) 0px 5px 20px 0px;
+    background: var(--light);
+    padding: 3rem;
+    border-radius: 20px!important;
+    color: var(--gray-700);
+    text-align: center!important;
+}
+
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  height: 40px;
+}
+
+
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 670px) {
+  .card_list {
+    /* On small screens, we are no longer using row direction but column */
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+
+
+  .line{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+  }
+
+
+  @media (min-width: 670px){
+  .form_grup {
+      display: flex;
+      align-items: flex-start;
+      border-bottom: none;
+      padding: 4px 0;
+      max-width: 600px;
+  }
+}
+
+
+
+@media (min-width: 670px) {
+.FormUser {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+}
+}
+
+.title_forme{
+  font-size: 1.2rem;
+  line-height: 28px;
+  flex-basis: 28%;
+  margin: 3px 0 0;
+  text-align: left;
+}
+
+.input_form{
+  flex: 68%;
+  width: auto;
+}
+
+
+@media (min-width: 670px){
+.input_text {
+    background-color: #f2f6fa;
+    min-height: 140px;
+    padding: 1rem 13rem 1rem 3rem;
+}
+}
+
+.Section--angleTop {
+  --sectionPaddingTop: var(--sectionAnglePaddingTop);
+  --sectionAngle: var(--angleNormal);
+}
+.flavor--Twilight, .flavor--Twilight.theme--Dark {
+  --blendBackground: #11efe3;
+  --blendForeground: #96f;
+}
