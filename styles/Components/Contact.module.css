@@ -20,7 +20,15 @@
   font-family: "Lexend",sans-serif;
   font-weight: 700;
   margin-bottom: 2rem;
+  cursor: default;
   }
+
+  .title_1:hover {
+      color: #29e8ac;
+      
+  }
+
+
   .title_2 {
     color: var(--gray-500);
     text-align: center;
@@ -136,6 +144,79 @@
     padding: 1rem 13rem 1rem 3rem;
 }
 }
+
+
+
+.btn_acessar{
+justify-content: right;
+text-align:right;
+margin-top: 2rem;
+}
+.btn button{
+
+  background-color: var(--danger);
+  border-radius: 4px;
+  border: none;
+  font-family: "Rubik",sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 1;
+  padding: 12px 32px;
+  color: #fff!important;
+  background: #29e8ac;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background: linear-gradient(90deg, #29e8ac 0%, #29e8ac 100%);
+  transition: all 0.3s ease-in-out 0s;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+
+.btn::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  
+  }
+
+
+
+.btn:hover, .btn:focus {
+color: #313133;
+transform: translateY(-6px);
+}
+
+.btn:hover::before, .btn:focus::before {
+opacity: 1;
+}
+.btn::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover::after, .btn:focus::after {
+  animation: none;
+  display: none;
+}
+
+
+
+
 
 .Section--angleTop {
   --sectionPaddingTop: var(--sectionAnglePaddingTop);

@@ -22,7 +22,7 @@ const Contact = () => {
                       <div className={styles.card}>
                   
                         <div className={styles.card_title} className="title-white">
-                        <h3>Card Title</h3>
+                        <h3>Informe os dados</h3>
                         <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
                         </div>
 
@@ -72,7 +72,18 @@ const Contact = () => {
                               <Input className={styles.input_text} type="textarea" name="text" id="caixatexto" placeholder="" />
                               </div>
                             </div> 
-                         
+
+                                    <div className={styles.btn_acessar}>
+                                      <div className={styles.btn}>
+                                      <button type="button" >SOLICITAR ACESSO</button>
+
+
+                                      </div>
+                                   
+
+
+
+                                    </div>
                             </div>
                             </FormGroup>
 

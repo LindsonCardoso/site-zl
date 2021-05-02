@@ -9,8 +9,15 @@
 }
 
 .subtitles_3{
+	
+}
+
+.subtitles_3:hover{
+	cursor: default;
 	color: var(--money);
 }
+
+
 .row {
   margin-top:2rem;
 }
