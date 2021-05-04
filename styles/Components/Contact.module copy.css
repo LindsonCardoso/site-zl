@@ -111,6 +111,8 @@
   }
 }
 
+
+
 @media (min-width: 670px) {
 .FormUser {
     flex-direction: row;
@@ -118,70 +120,28 @@
     align-items: center;
     padding: 0 0 20px;
     margin: 0 0 20px;
-
 }
 }
 
 .title_forme{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 28px;
-  font-family: "Lexend", sans-serif;
-  margin: 3px 0 0;
   flex-basis: 28%;
-  text-align: left !important;
-
+  margin: 3px 0 0;
+  text-align: left;
 }
 
 .input_form{
-  border-radius: 0.3rem;
-  padding: 5px 20px 8px 13px;
   flex: 68%;
-  font-family: "Lexend", sans-serif;
   width: auto;
-  font-size: 1.2rem;
-  background: #29e8ac;
-  border-color: #29e8ac;
-  border-width: 0.01rem;
 }
 
-
-.input_form:hover {
-  background-color: #f6f9fc;
-  border-color: #2bd39e;
-}
-
-
-.input_area{
-  border-radius: 0.3rem;
-  padding: 5px 20px 8px 13px;
-  flex: 68%;
-  font-family: "Lexend", sans-serif;
-  font-size: 1.2rem;
-  background: #29e8ac;
-  border-color: #2bd39e;
-  width: auto;
-  min-height: 140px;
-
-}
-.input_area:hover {
-  background-color: #f6f9fc;
-  border-color: #2bd39e;
-}
 
 @media (min-width: 670px){
 .input_text {
     background-color: #f2f6fa;
     min-height: 140px;
-    padding: 5px 20px 8px 13px;
-    border-radius: 0.3rem;
-    flex: 68%;
-    font-family: "Lexend", sans-serif;
-    font-size: 1.2rem;
-    background: #29e8ac;
-    border-color: #29e8ac;
-    border: none;
-    width: auto;
-    min-height: 140px;
+    padding: 1rem 13rem 1rem 3rem;
 }
 }
 
