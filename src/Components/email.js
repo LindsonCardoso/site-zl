@@ -5,8 +5,49 @@ import {
 } from 'reactstrap';
 import FadeIn from 'react-fade-in';
 import styles from '../../styles/Components/Contact.module.css';
-import Mask from '../Components/MaskInput/Mask'
+
 const Contact = () => {
+
+  const [name, setName] = useState('');
+  const [surname, setSurname] = useState('');
+  const [message, setMessage] = useState('');
+  const [email, setEmail] = useState('');
+  const [enviar, setEnviar] = useState(false);
+
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log('Enviando')
+
+    let data = {
+      name,
+      surname,
+      email,
+      message
+    }
+
+    fetch('/api/Server', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      
+      body: JSON.stringify(data)
+
+    }).then((res) => {
+      console.log('response received')
+      if (res.status === 200) {
+        console.log('response succeeded!')
+        setEnviar(true);
+        setName('');
+        setSurname('');
+        setEmail('');
+        setMessage('');
+      }
+    })
+  }
 
 
   return (
@@ -38,7 +79,7 @@ const Contact = () => {
                               type="text" 
                                name="name" 
                                 id="name" 
-                                
+                                 onChange={(e)=> {setName(e.target.value)}} 
                                  placeholder="Joao"                      
                               />
                             </formGroup>  
@@ -50,11 +91,10 @@ const Contact = () => {
                               type="text" 
                                name="surname" 
                                 id="surname" 
-                           
+                                 onChange={(e)=> {setSurname(e.target.value)}} 
                                  placeholder="Carlos"                      
                               />
                             </formGroup>  
-
                             <formGroup className={styles.form_grup}>
                             <label className={styles.title_forme} htmlFor='email'>Email</label>
                             <input 
@@ -62,36 +102,28 @@ const Contact = () => {
                               type="text" 
                                name="email" 
                                 id="email" 
-                                 //onChange={(e)=> {setEmail(e.target.value)}} 
-                                 placeholder="teste@teste.com"                      
+                                 onChange={(e)=> {setEmail(e.target.value)}} 
+                                 placeholder="frank.@.com"                      
                               />
                             </formGroup>  
 
-                            <formGroup className={styles.form_grup}>
-                            <label className={styles.title_forme} htmlFor='cnpj'>CPF ou CNPJ</label>
-                            <Mask />
-                            </formGroup>  
 
                             <formGroup className={styles.form_grup}>
-                            <label className={styles.title_forme} htmlFor='email'>telefone</label>
-                            <input 
-                            className={styles.input_form}
-                              type="telefone" 
-                               name="tel" 
-                                id="tel" 
-                                 //onChange={(e)=> {setEmail(e.target.value)}} 
+                            <label className={styles.title_forme} htmlFor='message'>Mensagem</label>
+                            <textarea 
+                            className={styles.input_area}
+                              type="textarea" 
+                               name="message" 
+                                id="message" 
+                                 onChange={(e)=> {setMessage(e.target.value)}} 
                                  placeholder=""                      
                               />
                             </formGroup>  
 
-                     
-                            
-                
-
                             <input
                              type="submit"
                               className={styles.p1}
-                              //onClick={(e) => {handleSubmit (e)}}
+                              onClick={(e) => {handleSubmit (e)}}
                               />
 
 

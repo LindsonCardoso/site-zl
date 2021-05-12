@@ -1,4 +1,4 @@
-export default function (req, res) {
+/*export default function (req, res) {
   require('dotenv').config();
 
   let nodemailer = require('nodemailer')
@@ -34,3 +34,4 @@ transporter.sendMail (mailData, function (err, info) {
 
 
 //Se você estiver compartilhando este código com o github, lembre-se de incluir o .env em seu gitignore. E se você estiver implantando o aplicativo em um site ativo, lembre-se de incluir sua senha como uma variável de ambiente!
+*/
